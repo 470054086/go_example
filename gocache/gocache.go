@@ -1,7 +1,6 @@
 package gocache
 
 import (
-	"fmt"
 	"sync"
 	"time"
 )
@@ -55,9 +54,6 @@ func NewCache(option ...Op) *Gocache {
 		lock:sync.RWMutex{},
 		option:op,
 	}
-	fmt.Println(g.option)
-
-
 	// 初始化key-value结构
 	g.keyValueCache = NewKeyValue(g.keyExpireChan)
 
@@ -100,11 +96,11 @@ func (g *Gocache) deleteCaseType(val *KeyExpireChan)  {
 		// todo 暂时未开发
 	}
 }
-
+// lur 算法
 func (g *Gocache) clearLruKey()  {
-	fmt.Println("我就是LRU算法啦")
 }
 
+// channel 
 func (g *Gocache) addExpireKeyChan(v *KeyExpireChan) {
 	g.keyExpireChan <- v
 }
