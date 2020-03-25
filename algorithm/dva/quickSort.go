@@ -78,6 +78,15 @@ func parrent(nums []int,startIndex,lastIndex int) int {
 	right:= lastIndex
 	// 只要left不等于right 就进行循环
 	for left !=right {
+		/**
+		//1. 先从右指针开始移动 如果当前的数比left小于的话 就把指针左移
+		// 直到遇到比他大的数 将右指针停止 移动左指针 当当前的数比基准大于的话
+		// 就移动左指针 当比他小的时候 就停止  然后交换两边指针的数据
+		// 最后交换起始位置 和当前left指针的数据  即左边的小于中间的 右边的大于中间的
+		 */
+
+
+
 		// 先从右指针开始循环 如果右指针大于基准元素 则向左移动
 		for left<right && nums[right] > base {
 			right--
