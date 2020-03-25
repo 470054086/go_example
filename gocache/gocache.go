@@ -100,7 +100,7 @@ func (g *Gocache) deleteCaseType(val *KeyExpireChan)  {
 func (g *Gocache) clearLruKey()  {
 }
 
-// channel 
+// channel
 func (g *Gocache) addExpireKeyChan(v *KeyExpireChan) {
 	g.keyExpireChan <- v
 }

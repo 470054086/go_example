@@ -1,0 +1,2348 @@
+{
+    "code": 200,
+    "message": "请求操作成功",
+    "data": [
+        [
+            {
+                "id": 3126537,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5023,
+                    "no": 1,
+                    "name_CN": "第一节",
+                    "name_EN": "Mat 1",
+                    "course_id": 557
+                },
+                "start_time": 1581075000,
+                "end_time": 1581076500,
+                "server_time": 1583762840,
+                "status": 2,
+                "is_current": 0,
+                "video": [
+                    "http://media-playback.jingyuxiaoban.com/1d07a120970028478032b6511303a9ff.mp4"
+                ],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 1,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 1,
+                "review_exercise": 1,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "R6zl0Dt576k_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "kKjKMjg40JwXgElk",
+                "textbook_type": 1,
+                "class_platform_tips": "",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=R6zl0Dt576k_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJjb3Vyc2VfaWQiOiI1NTciLCJsZXNzb25faWQiOiI1MDIzIiwic2NoZWR1bGVfaWQiOiIzMTI2NTM3IiwiY2xhc3NfdHlwZSI6MX0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJsZXNzb25faWQiOiI1MDIzIiwiY291cnNlX2lkIjoiNTU3Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTM3IiwiY2xhc3NfdHlwZSI6Mn0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "错题本",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_note@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/mistakesBook?courseId=Vu~HHwrA4sQ_&classrommId=0OdGNYq14rLW7uVt&scheduleId=kKjKMjg40JwXgElk",
+                        "toast": ""
+                    }
+                ]
+            },
+            {
+                "id": 3126538,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5024,
+                    "no": 2,
+                    "name_CN": "第二节",
+                    "name_EN": "Mat 2",
+                    "course_id": 557
+                },
+                "start_time": 1581670800,
+                "end_time": 1581672300,
+                "server_time": 1583762840,
+                "status": 2,
+                "is_current": 0,
+                "video": [
+                    "http://media-playback.jingyuxiaoban.com/f7c84bab5506a420afc0212b9f2ade0d.mp4",
+                    "http://media-playback.jingyuxiaoban.com/bbf02b7442695783003f26ffbd673c36.mp4"
+                ],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 1,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 1,
+                "review_exercise": 1,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "kd908q2qWFU_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "BcE~hjW4Pixsr5fR",
+                "textbook_type": 1,
+                "class_platform_tips": "",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=kd908q2qWFU_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJjb3Vyc2VfaWQiOiI1NTciLCJsZXNzb25faWQiOiI1MDI0Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTM4IiwiY2xhc3NfdHlwZSI6MX0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJsZXNzb25faWQiOiI1MDI0IiwiY291cnNlX2lkIjoiNTU3Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTM4IiwiY2xhc3NfdHlwZSI6Mn0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "错题本",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_note@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/mistakesBook?courseId=Vu~HHwrA4sQ_&classrommId=0OdGNYq14rLW7uVt&scheduleId=BcE~hjW4Pixsr5fR",
+                        "toast": ""
+                    }
+                ]
+            },
+            {
+                "id": 3126539,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5025,
+                    "no": 3,
+                    "name_CN": "第三节",
+                    "name_EN": "Mat 3",
+                    "course_id": 557
+                },
+                "start_time": 1581679800,
+                "end_time": 1581681300,
+                "server_time": 1583762840,
+                "status": 2,
+                "is_current": 0,
+                "video": [
+                    "http://media-playback.jingyuxiaoban.com/ce1e317a84cfaa60bda3d71fa5500400.mp4",
+                    "http://media-playback.jingyuxiaoban.com/4ea24eff1986570d89c1e8a38eedf38a.mp4"
+                ],
+                "report_id": 552671,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 1,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 1,
+                "review_exercise": 1,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "FWcJrrElyZw_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "fDDWPyfM14xauNyU",
+                "textbook_type": 1,
+                "class_platform_tips": "",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=FWcJrrElyZw_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJjb3Vyc2VfaWQiOiI1NTciLCJsZXNzb25faWQiOiI1MDI1Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTM5IiwiY2xhc3NfdHlwZSI6MX0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJsZXNzb25faWQiOiI1MDI1IiwiY291cnNlX2lkIjoiNTU3Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTM5IiwiY2xhc3NfdHlwZSI6Mn0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "错题本",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_note@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/mistakesBook?courseId=Vu~HHwrA4sQ_&classrommId=0OdGNYq14rLW7uVt&scheduleId=fDDWPyfM14xauNyU",
+                        "toast": ""
+                    }
+                ]
+            },
+            {
+                "id": 3126540,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5026,
+                    "no": 4,
+                    "name_CN": "第四节",
+                    "name_EN": "Dot 1",
+                    "course_id": 557
+                },
+                "start_time": 1582025400,
+                "end_time": 1582026900,
+                "server_time": 1583762840,
+                "status": 2,
+                "is_current": 0,
+                "video": [
+                    "http://media-playback.jingyuxiaoban.com/b573496ca03544ccc142a08c0628f052.mp4"
+                ],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 1,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 1,
+                "review_exercise": 1,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "PHb73ZfqSxI_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "OfVHW9IbW70MmGZ5",
+                "textbook_type": 1,
+                "class_platform_tips": "",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=PHb73ZfqSxI_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJjb3Vyc2VfaWQiOiI1NTciLCJsZXNzb25faWQiOiI1MDI2Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTQwIiwiY2xhc3NfdHlwZSI6MX0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJsZXNzb25faWQiOiI1MDI2IiwiY291cnNlX2lkIjoiNTU3Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTQwIiwiY2xhc3NfdHlwZSI6Mn0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "错题本",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_note@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/mistakesBook?courseId=Vu~HHwrA4sQ_&classrommId=0OdGNYq14rLW7uVt&scheduleId=OfVHW9IbW70MmGZ5",
+                        "toast": ""
+                    }
+                ]
+            },
+            {
+                "id": 3126541,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5027,
+                    "no": 5,
+                    "name_CN": "第五节",
+                    "name_EN": "Dot 2",
+                    "course_id": 557
+                },
+                "start_time": 1582284600,
+                "end_time": 1582286100,
+                "server_time": 1583762840,
+                "status": 2,
+                "is_current": 0,
+                "video": [
+                    "http://media-playback.jingyuxiaoban.com/ebcee7621cccc483d4ab45ded75c5692.mp4"
+                ],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 1,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 1,
+                "review_exercise": 1,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "4E5EKGI2whY_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "wOEcso5jb9LlxHlC",
+                "textbook_type": 1,
+                "class_platform_tips": "",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=4E5EKGI2whY_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJjb3Vyc2VfaWQiOiI1NTciLCJsZXNzb25faWQiOiI1MDI3Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTQxIiwiY2xhc3NfdHlwZSI6MX0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJsZXNzb25faWQiOiI1MDI3IiwiY291cnNlX2lkIjoiNTU3Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTQxIiwiY2xhc3NfdHlwZSI6Mn0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "错题本",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_note@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/mistakesBook?courseId=Vu~HHwrA4sQ_&classrommId=0OdGNYq14rLW7uVt&scheduleId=wOEcso5jb9LlxHlC",
+                        "toast": ""
+                    }
+                ]
+            },
+            {
+                "id": 3126542,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5028,
+                    "no": 6,
+                    "name_CN": "第六节",
+                    "name_EN": "Dot 3",
+                    "course_id": 557
+                },
+                "start_time": 1582630200,
+                "end_time": 1582631700,
+                "server_time": 1583762840,
+                "status": 2,
+                "is_current": 0,
+                "video": [
+                    "http://media-playback.jingyuxiaoban.com/24bd749f4763900f7eba21f6298476b6.mp4"
+                ],
+                "report_id": 575200,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 1,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 1,
+                "review_exercise": 1,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "zMilZsQmH~A_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "7W1h-xJsNvDzOHVJ",
+                "textbook_type": 1,
+                "class_platform_tips": "",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=zMilZsQmH~A_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJjb3Vyc2VfaWQiOiI1NTciLCJsZXNzb25faWQiOiI1MDI4Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTQyIiwiY2xhc3NfdHlwZSI6MX0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJsZXNzb25faWQiOiI1MDI4IiwiY291cnNlX2lkIjoiNTU3Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTQyIiwiY2xhc3NfdHlwZSI6Mn0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "错题本",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_note@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/mistakesBook?courseId=Vu~HHwrA4sQ_&classrommId=0OdGNYq14rLW7uVt&scheduleId=7W1h-xJsNvDzOHVJ",
+                        "toast": ""
+                    }
+                ]
+            },
+            {
+                "id": 3126543,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5029,
+                    "no": 7,
+                    "name_CN": "第七节",
+                    "name_EN": "Sam 1",
+                    "course_id": 557
+                },
+                "start_time": 1582889400,
+                "end_time": 1582890900,
+                "server_time": 1583762840,
+                "status": 2,
+                "is_current": 0,
+                "video": [
+                    "http://media-playback.jingyuxiaoban.com/56e8a044b116c3ce20d7828d391e37a7.mp4"
+                ],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 1,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 1,
+                "review_exercise": 1,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "IGewGx5wNQ4_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "D69LPWypPERUBvIb",
+                "textbook_type": 1,
+                "class_platform_tips": "",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=IGewGx5wNQ4_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJjb3Vyc2VfaWQiOiI1NTciLCJsZXNzb25faWQiOiI1MDI5Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTQzIiwiY2xhc3NfdHlwZSI6MX0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJsZXNzb25faWQiOiI1MDI5IiwiY291cnNlX2lkIjoiNTU3Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTQzIiwiY2xhc3NfdHlwZSI6Mn0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "错题本",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_note@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/mistakesBook?courseId=Vu~HHwrA4sQ_&classrommId=0OdGNYq14rLW7uVt&scheduleId=D69LPWypPERUBvIb",
+                        "toast": ""
+                    }
+                ]
+            },
+            {
+                "id": 3126544,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5030,
+                    "no": 8,
+                    "name_CN": "第八节",
+                    "name_EN": "Sam 2",
+                    "course_id": 557
+                },
+                "start_time": 1583235000,
+                "end_time": 1583236500,
+                "server_time": 1583762840,
+                "status": 2,
+                "is_current": 0,
+                "video": [
+                    "http://media-playback.jingyuxiaoban.com/e00954cb6376067d9d1dfbc113931b7a.mp4"
+                ],
+                "report_id": 588740,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 1,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 1,
+                "review_exercise": 1,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "6jNWBh-n91w_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "ye9P~zPnKORgQkZl",
+                "textbook_type": 1,
+                "class_platform_tips": "",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=6jNWBh-n91w_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJjb3Vyc2VfaWQiOiI1NTciLCJsZXNzb25faWQiOiI1MDMwIiwic2NoZWR1bGVfaWQiOiIzMTI2NTQ0IiwiY2xhc3NfdHlwZSI6MX0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJsZXNzb25faWQiOiI1MDMwIiwiY291cnNlX2lkIjoiNTU3Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTQ0IiwiY2xhc3NfdHlwZSI6Mn0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "错题本",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_note@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/mistakesBook?courseId=Vu~HHwrA4sQ_&classrommId=0OdGNYq14rLW7uVt&scheduleId=ye9P~zPnKORgQkZl",
+                        "toast": ""
+                    }
+                ]
+            },
+            {
+                "id": 3126545,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5031,
+                    "no": 9,
+                    "name_CN": "第九节",
+                    "name_EN": "Dot and Mit 1",
+                    "course_id": 557
+                },
+                "start_time": 1583494200,
+                "end_time": 1583495700,
+                "server_time": 1583762840,
+                "status": 2,
+                "is_current": 0,
+                "video": [
+                    "http://media-playback.jingyuxiaoban.com/35bc0e119e75926ecfb15615e343a43e.mp4"
+                ],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 1,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 1,
+                "review_exercise": 1,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "VaJZUcXTBJE_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "QZ81F0CXo8b5604l",
+                "textbook_type": 1,
+                "class_platform_tips": "",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=VaJZUcXTBJE_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJjb3Vyc2VfaWQiOiI1NTciLCJsZXNzb25faWQiOiI1MDMxIiwic2NoZWR1bGVfaWQiOiIzMTI2NTQ1IiwiY2xhc3NfdHlwZSI6MX0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJsZXNzb25faWQiOiI1MDMxIiwiY291cnNlX2lkIjoiNTU3Iiwic2NoZWR1bGVfaWQiOiIzMTI2NTQ1IiwiY2xhc3NfdHlwZSI6Mn0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "错题本",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_note@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/mistakesBook?courseId=Vu~HHwrA4sQ_&classrommId=0OdGNYq14rLW7uVt&scheduleId=QZ81F0CXo8b5604l",
+                        "toast": ""
+                    }
+                ]
+            },
+            {
+                "id": 3126546,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5032,
+                    "no": 10,
+                    "name_CN": "第十节",
+                    "name_EN": "Dot and Mit 2",
+                    "course_id": 557
+                },
+                "start_time": 1583839800,
+                "end_time": 1583841300,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 1,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 1,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "vulbRVPKQJc_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "zIu7Ib1UiXFlG5CK",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=vulbRVPKQJc_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "jyxb://io.weparent/coursetimetable/homeworklist?launch_param=eyJjb3Vyc2VfaWQiOiI1NTciLCJsZXNzb25faWQiOiI1MDMyIiwic2NoZWR1bGVfaWQiOiIzMTI2NTQ2IiwiY2xhc3NfdHlwZSI6MX0=",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": 3126547,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5033,
+                    "no": 11,
+                    "name_CN": "第十一节",
+                    "name_EN": "Mac",
+                    "course_id": 557
+                },
+                "start_time": 1584099000,
+                "end_time": 1584100500,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "yJicK6gGNQ8_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "fuoEBvYzrUWlezmz",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=yJicK6gGNQ8_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126548,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5034,
+                    "no": 12,
+                    "name_CN": "第十二节",
+                    "name_EN": "Jig  and Mag 1",
+                    "course_id": 557
+                },
+                "start_time": 1584444600,
+                "end_time": 1584446100,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "jHoFQVH9Z~w_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "oIs0JNTUU9sdC7Id",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=jHoFQVH9Z~w_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126549,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5035,
+                    "no": 13,
+                    "name_CN": "第十三节",
+                    "name_EN": "Jig  and Mag 2",
+                    "course_id": 557
+                },
+                "start_time": 1584703800,
+                "end_time": 1584705300,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "TrElAqGOGck_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "eEOq0H3QmDUp3DJH",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=TrElAqGOGck_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126550,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5036,
+                    "no": 14,
+                    "name_CN": "第十四节",
+                    "name_EN": "Muff and Ruff 1",
+                    "course_id": 557
+                },
+                "start_time": 1585049400,
+                "end_time": 1585050900,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "xuyu-xrnJCY_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "zFSU~2MZUF25qfJM",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=xuyu-xrnJCY_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126551,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5037,
+                    "no": 15,
+                    "name_CN": "第十五节",
+                    "name_EN": "Muff and Ruff 2",
+                    "course_id": 557
+                },
+                "start_time": 1585308600,
+                "end_time": 1585310100,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "NIPlPi3MuYE_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "0hkmGUUqdp-gTNsa",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=NIPlPi3MuYE_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126552,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5038,
+                    "no": 16,
+                    "name_CN": "第十六节",
+                    "name_EN": "Peg and Ted",
+                    "course_id": 557
+                },
+                "start_time": 1585654200,
+                "end_time": 1585655700,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "8cBdtCEzDfY_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "vn3Pof8WaScObmki",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=8cBdtCEzDfY_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126553,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5039,
+                    "no": 17,
+                    "name_CN": "第十七节",
+                    "name_EN": "Lad and  the Fat Cat 1",
+                    "course_id": 557
+                },
+                "start_time": 1585913400,
+                "end_time": 1585914900,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "P3n4C5-zPJ0_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "oOg~PB9oKkeNIiCG",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=P3n4C5-zPJ0_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126554,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5040,
+                    "no": 18,
+                    "name_CN": "第十八节",
+                    "name_EN": "Lad and  the Fat Cat 2",
+                    "course_id": 557
+                },
+                "start_time": 1586259000,
+                "end_time": 1586260500,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "UJZVNQFhZ6g_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "uc~n~6GFFn-lYuWK",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=UJZVNQFhZ6g_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126555,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5041,
+                    "no": 19,
+                    "name_CN": "第十九节",
+                    "name_EN": "The Vet 1",
+                    "course_id": 557
+                },
+                "start_time": 1586518200,
+                "end_time": 1586519700,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "PLjkJv5fLjU_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "TSGORT9l7rZwUZSM",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=PLjkJv5fLjU_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126556,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5042,
+                    "no": 20,
+                    "name_CN": "第二十节",
+                    "name_EN": "The Vet 2",
+                    "course_id": 557
+                },
+                "start_time": 1586863800,
+                "end_time": 1586865300,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "EEWBrF3Cu3Q_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "MnXGwGj0o0z9ILMJ",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=EEWBrF3Cu3Q_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": 3126557,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5043,
+                    "no": 21,
+                    "name_CN": "第二十一节",
+                    "name_EN": "Dan‘s Plan 1",
+                    "course_id": 557
+                },
+                "start_time": 1587123000,
+                "end_time": 1587124500,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "ShhwfZcqzHc_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "YvbcuNicD8~7mjoo",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126558,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5044,
+                    "no": 22,
+                    "name_CN": "第二十二节",
+                    "name_EN": "Dan‘s Plan 2",
+                    "course_id": 557
+                },
+                "start_time": 1587468600,
+                "end_time": 1587470100,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "8sRVjkJ2bhk_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "QSmm9-BJrdOKcMvE",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课程知识点",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_knowledge@1.5x.png",
+                        "url": "https://parent.jingyupeiyou.com/experienceClassKnowledge?lessonId=8sRVjkJ2bhk_&courseId=Vu~HHwrA4sQ_",
+                        "toast": ""
+                    },
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126559,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5045,
+                    "no": 23,
+                    "name_CN": "第二十三节",
+                    "name_EN": "Cam’s Snack 1",
+                    "course_id": 557
+                },
+                "start_time": 1587727800,
+                "end_time": 1587729300,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "~PbiUDy1g4g_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "JnwKQaBh1mV30c2j",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126560,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5046,
+                    "no": 24,
+                    "name_CN": "第二十四节",
+                    "name_EN": "Cam’s Snack 2",
+                    "course_id": 557
+                },
+                "start_time": 1588073400,
+                "end_time": 1588074900,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "jHteNr1HB1g_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "KI2HIok~UU5I6ar2",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126561,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5047,
+                    "no": 25,
+                    "name_CN": "第二十五节",
+                    "name_EN": "The Hen in the Den 1",
+                    "course_id": 557
+                },
+                "start_time": 1588332600,
+                "end_time": 1588334100,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "rJG5h9fdjpA_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "sORHyOK5PuCfqBTk",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126562,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5048,
+                    "no": 26,
+                    "name_CN": "第二十六节",
+                    "name_EN": "The Hen in the Den 2",
+                    "course_id": 557
+                },
+                "start_time": 1588678200,
+                "end_time": 1588679700,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 1,
+                "is_prepare": 1,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "~I00hkGXe5U_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "kRq1w73qtjmabWad",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": [
+                    {
+                        "title": "课前预习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_preclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完前一节课程才能预习哦"
+                    },
+                    {
+                        "title": "课后复习",
+                        "icon": "https://common-static-cdn.jingyupeiyou.com/assets/images/app/icon_afterclass@1.5x.png",
+                        "url": "",
+                        "toast": "学完本节课程后才能复习哦"
+                    }
+                ]
+            },
+            {
+                "id": 3126563,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5049,
+                    "no": 27,
+                    "name_CN": "第二十七节",
+                    "name_EN": "The Red Sled 1",
+                    "course_id": 557
+                },
+                "start_time": 1588937400,
+                "end_time": 1588938900,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "I1nWBDc-R20_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "BvfjSxM5W~1gJX-4",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            },
+            {
+                "id": 3126564,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5050,
+                    "no": 28,
+                    "name_CN": "第二十八节",
+                    "name_EN": "The Red Sled 2",
+                    "course_id": 557
+                },
+                "start_time": 1589283000,
+                "end_time": 1589284500,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "jUzlkdSMIxg_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "O10NV42erP-Xk5Ej",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            },
+            {
+                "id": 3126565,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5051,
+                    "no": 29,
+                    "name_CN": "第二十九节",
+                    "name_EN": "Drip Drip Drip 1",
+                    "course_id": 557
+                },
+                "start_time": 1589542200,
+                "end_time": 1589543700,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "JLPKlMxuJlA_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "5OVzxx58q6nZbVf7",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            },
+            {
+                "id": 3126566,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5052,
+                    "no": 30,
+                    "name_CN": "第三十节",
+                    "name_EN": "Drip Drip Drip 2",
+                    "course_id": 557
+                },
+                "start_time": 1589887800,
+                "end_time": 1589889300,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "BilTrQyYQzI_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "Gx5uiqsmh4xNPdgu",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            }
+        ],
+        [
+            {
+                "id": 3126567,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5053,
+                    "no": 31,
+                    "name_CN": "第三十一节",
+                    "name_EN": "Lin in the Bin 1",
+                    "course_id": 557
+                },
+                "start_time": 1590147000,
+                "end_time": 1590148500,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "UadLNuCsLFE_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "cMiGxmE64PiAlVsV",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            },
+            {
+                "id": 3126568,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5054,
+                    "no": 32,
+                    "name_CN": "第三十二节",
+                    "name_EN": "Lin in the Bin 2",
+                    "course_id": 557
+                },
+                "start_time": 1590492600,
+                "end_time": 1590494100,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "~JTjuNshCYw_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "Wz~lMy~9QQMmOmxj",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            },
+            {
+                "id": 3126569,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5055,
+                    "no": 33,
+                    "name_CN": "第三十三节",
+                    "name_EN": "The Dog in the Fog 1",
+                    "course_id": 557
+                },
+                "start_time": 1590751800,
+                "end_time": 1590753300,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "-AOLSkUsGQ8_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "a~3YIFLNcRQxoFwc",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            },
+            {
+                "id": 3126570,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5056,
+                    "no": 34,
+                    "name_CN": "第三十四节",
+                    "name_EN": "The Dog in the Fog 2",
+                    "course_id": 557
+                },
+                "start_time": 1591097400,
+                "end_time": 1591098900,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "Ui8vNgRzGCM_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "Shj6B1ItbF0aETzP",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            },
+            {
+                "id": 3126571,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5057,
+                    "no": 35,
+                    "name_CN": "第三十五节",
+                    "name_EN": "The Spot 1",
+                    "course_id": 557
+                },
+                "start_time": 1591356600,
+                "end_time": 1591358100,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "UM4bnlo0yK0_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "-STbOU0HtCHv3SHJ",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            },
+            {
+                "id": 3126572,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5058,
+                    "no": 36,
+                    "name_CN": "第三十六节",
+                    "name_EN": "The Spot 2",
+                    "course_id": 557
+                },
+                "start_time": 1591702200,
+                "end_time": 1591703700,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "iu85-2YdIfA_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "gvSNjOE3wlopW9wm",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            },
+            {
+                "id": 3126573,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5059,
+                    "no": 37,
+                    "name_CN": "第三十七节",
+                    "name_EN": "In a Huff  1",
+                    "course_id": 557
+                },
+                "start_time": 1591961400,
+                "end_time": 1591962900,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "jjquXrZqXi4_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "jV~IH7rt72C6cBZ4",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            },
+            {
+                "id": 3126574,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5060,
+                    "no": 38,
+                    "name_CN": "第三十八节",
+                    "name_EN": "In a Huff  2",
+                    "course_id": 557
+                },
+                "start_time": 1592307000,
+                "end_time": 1592308500,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "Us3UYffIff0_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "enAjGJofso0Zf3De",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            },
+            {
+                "id": 3126575,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5061,
+                    "no": 39,
+                    "name_CN": "第三十九节",
+                    "name_EN": "Bug and Pug 1",
+                    "course_id": 557
+                },
+                "start_time": 1592566200,
+                "end_time": 1592567700,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 0,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "4iGkteydusI_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "If2DtFOmELkFHIEm",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            },
+            {
+                "id": 3154266,
+                "classroom": {
+                    "class_no": "ESC967100551",
+                    "meeting_id": "weclass"
+                },
+                "lesson": {
+                    "id": 5062,
+                    "no": 40,
+                    "name_CN": "第四十节",
+                    "name_EN": "Bug and Pug 2",
+                    "course_id": 557
+                },
+                "start_time": 1593171000,
+                "end_time": 1593172500,
+                "server_time": 1583762840,
+                "status": 1,
+                "is_current": 0,
+                "video": [],
+                "report_id": 0,
+                "report_type": 6,
+                "stu_prepare": 0,
+                "stu_review": 0,
+                "is_basis": 0,
+                "is_reach": 0,
+                "is_review": 0,
+                "is_prepare": 0,
+                "prepare_exercise": 0,
+                "review_exercise": 0,
+                "teacher": {
+                    "id": 3241,
+                    "name": "Tess Wilkinson",
+                    "nickname": "TessWi",
+                    "avatar": "https://media-t.jingyupeiyou.com/30a61b281d8de23ec9fb154195fd07f5b",
+                    "gender": 2
+                },
+                "lesson_id_ency": "c2Op1IFWGv4_",
+                "course_id_ency": "Vu~HHwrA4sQ_",
+                "schedule_id_ency": "PTM3BCjq1TrjaPRO",
+                "textbook_type": 1,
+                "class_platform_tips": "请登录「鲸鱼学堂」上课",
+                "report_url": "",
+                "icons": []
+            }
+        ]
+    ],
+    "time": "2729ms"
+}
+
+
+$this->_getVideo($scheduleIds, $v['id'])
+
+
+
+
+1794112,
+1794113,
+1794114,
+1794115,
+1794116,
+1794117,
+1794118,
+1794119,
+1794120,
+1794121,
+1794122,
+1794123,
+1794124,
+1794125,
+1794126,
+1794127,
+1794128,
+1794129,
+1794130,
+1794131
+
+
+
+
+
+
+
+11102 3543139
