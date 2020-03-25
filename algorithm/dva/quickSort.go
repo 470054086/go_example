@@ -107,7 +107,6 @@ func parrent(nums []int,startIndex,lastIndex int) int {
 	nums[left]  = base
 	return left
 }
-
 func parrent2(nums []int,startIndex,lastIndex int) int  {
 	base:= nums[startIndex]
 	mark := startIndex
