@@ -2,6 +2,7 @@ package session
 
 import (
 	"database/sql"
+	"lorm/clause"
 	"lorm/dialect"
 	"lorm/log"
 	"lorm/schema"
@@ -12,6 +13,7 @@ type Session struct {
 	db      *sql.DB         //sql链接
 	sql     strings.Builder //解析sql字符串
 	refTable *schema.Schema // 表解析结构
+	clause clause.Clause
 	sqlVars []interface{}   //sql的参数
 	dialect dialect.Dialect
 }
