@@ -8,9 +8,11 @@ import (
 type User struct {
 	userModel *model.User
 }
+
 var S_User *User
-func init()  {
-	S_User = &User{userModel:&model.User{}}
+
+func init() {
+	S_User = &User{userModel: &model.User{}}
 }
 
 func (u *User) AddUser(r *request.IndexRequest) (uint, error) {
@@ -20,4 +22,8 @@ func (u *User) AddUser(r *request.IndexRequest) (uint, error) {
 		Sex:      r.Sex,
 	}
 	return userModel.Create(userModel)
+}
+
+func (u *User) GetList(mobile string, sex int) []*model.User {
+	return u.userModel.GetList(mobile, sex)
 }
