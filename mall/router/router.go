@@ -15,12 +15,14 @@ func Router(r *gin.Engine) {
 	var hello = &controller.Hello{}
 	var upload = &controller.Upload{}
 	pprof.Register(r)
-
+	r.Use(middleware.StatisDuration())
 	r.Use(middleware.RecoverMiddle())
 	r.Use(ginprom.PromMiddleware(nil))
 	r.GET("/metrics", ginprom.PromHandler(promhttp.Handler()))
-	r.GET("/index", wapper(hello.Add))
+	r.POST("/index", wapper(hello.Add))
+	r.POST("/test", wapper(hello.Test))
 	r.POST("/list", wapper(hello.Lists))
+	r.POST("/login", wapper(hello.Login))
 	r.POST("/upload", wapper(upload.Upload))
 }
 

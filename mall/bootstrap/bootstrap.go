@@ -4,6 +4,7 @@ import (
 	"context"
 	"github.com/gin-gonic/gin"
 	"mall/Providers/SendMobile"
+	"mall/Providers/Subscribe"
 	"mall/dao"
 	"mall/router"
 
@@ -20,6 +21,9 @@ func NewApp() *App {
 	e.startDb()
 	// 启动发送短信服务
 	e.startMobile()
+	// 启动消息订阅服务
+	e.startSubscribe()
+
 	return e
 }
 
@@ -39,3 +43,9 @@ func (r *App) startMobile()  {
 	ctx, cancelFunc := context.WithCancel(context.Background())
 	xue.Star(ctx,cancelFunc)
 }
+
+func (r * App) startSubscribe()  {
+	subscribe := Subscribe.NewSubscribe()
+	subscribe.Create("shop")
+}
+
