@@ -2,14 +2,18 @@ package session
 
 import (
 	"database/sql"
+	"lorm/clause"
 	"lorm/dialect"
 	"lorm/log"
+	"lorm/schema"
 	"strings"
 )
 
 type Session struct {
 	db      *sql.DB         //sql链接
 	sql     strings.Builder //解析sql字符串
+	refTable *schema.Schema // 表解析结构
+	clause clause.Clause
 	sqlVars []interface{}   //sql的参数
 	dialect dialect.Dialect
 }
@@ -52,7 +56,7 @@ func (s *Session) Exec() (result sql.Result, err error) {
 func (s *Session) QueryRow() *sql.Row {
 	defer s.clear()
 	log.Info(s.sql.String(), s.sqlVars)
-	return s.DB().QueryRow(s.sql.String(), s.sqlVars)
+	return s.DB().QueryRow(s.sql.String(), s.sqlVars...)
 }
 
 // 返回多行
@@ -61,7 +65,7 @@ func (s *Session) QueryRows() (rows *sql.Rows, err error) {
 	log.Info(s.sql.String(), s.sqlVars)
 	if rows, err = s.DB().Query(s.sql.String(), s.sqlVars...); err != nil {
 		log.Error(err)
-		return rows, err
+		return
 	}
 	return
 }
