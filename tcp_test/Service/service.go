@@ -7,33 +7,36 @@ import (
 	"tcp_test/common"
 )
 
-func main()  {
+func main() {
 	// 启动tcp ip
 	listen, err := net.Listen("tcp", ":8899")
-	if err!= nil {
+	if err != nil {
 		panic(err)
 	}
 	defer listen.Close()
-	log.Println("listen ok")
 	for {
 		if conn, err := listen.Accept(); err != nil {
 			log.Println("accept error:", err)
 			break
-		}else{
+		} else {
 			go handler(conn)
 		}
 	}
 }
 
-func handler(c net.Conn)  {
+func handler(c net.Conn) {
 	defer c.Close()
-	fd := common.SocketUtil{Coon:c}
+	fd := common.NewSocketUtil(c)
 	for {
-		data, err := fd.ReadPkg() //读取数据
-		if err != nil{
+		data, err := fd.PkgReader() //读取数据
+		if err != nil {
 			fmt.Println(err)
 			break
 		}
 		fmt.Println(string(data))
 	}
+}
+
+func handlerMessage(data []byte) {
+
 }
