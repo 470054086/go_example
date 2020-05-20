@@ -1,40 +1,42 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"net"
-	"time"
+	"tcp_test/common"
 )
 
-func main()  {
+func main() {
 	// 启动tcp ip
-	listen, err := net.Listen("tcp", ":8080")
-	if err!= nil {
+	listen, err := net.Listen("tcp", ":8899")
+	if err != nil {
 		panic(err)
 	}
 	defer listen.Close()
-	log.Println("listen ok")
-	i:=0;
 	for {
-		if _, err := listen.Accept(); err != nil {
+		if conn, err := listen.Accept(); err != nil {
 			log.Println("accept error:", err)
 			break
+		} else {
+			go handler(conn)
 		}
-		i++
-		go func(i int) {
-			time.Sleep(time.Second*10)
-			i++
-			log.Printf("%d: accept a new connection\n", i)
-		}(i)
-
 	}
 }
 
-func handler(c net.Conn )  {
+func handler(c net.Conn) {
 	defer c.Close()
-	for  {
-		// read from
-		// write form
-		c.Write([]byte("xiaobai"))
+	fd := common.NewSocketUtil(c)
+	for {
+		data, err := fd.PkgReader() //读取数据
+		if err != nil {
+			fmt.Println(err)
+			break
+		}
+		fmt.Println(string(data))
 	}
+}
+
+func handlerMessage(data []byte) {
+
 }
