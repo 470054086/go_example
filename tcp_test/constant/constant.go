@@ -3,17 +3,18 @@ package constant
 import "errors"
 
 type SendMessage struct {
-	MType    MessageType `json:"mtype"`   //消息类型
-	SType    int64       `json:"s_type"`  //发送类型
-	MUser    int64       `json:"m_user"`  //发送者
-	MData    []byte      `json:"m_data"`  //发送数据
-	Receiver int64       `json:"reciver"` //接受者 只有是单播才会存在
+	MType    MessageType `json:"mtype"`    //消息类型
+	SType    int64       `json:"s_type"`   //发送类型
+	MUser    int64       `json:"m_user"`   //发送者
+	MData    string      `json:"m_data"`   //发送数据
+	Receiver int64       `json:"receiver"` //接受者 只有是单播才会存在
 }
 type MessageType int
 
 // 定义消息的三种状态
 const (
-	Send MessageType = iota
+	Connection MessageType = iota
+	Send
 	Leave
 	Close
 )

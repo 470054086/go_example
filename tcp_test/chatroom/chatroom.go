@@ -6,6 +6,8 @@ import (
 	"sync"
 	"tcp_test/constant"
 )
+//{"mtype":1,"s_type":2,"m_user":1,"m_data":"","receiver":0}
+
 
 // 定义聊天室的结构体
 type chatRoom struct {
@@ -76,18 +78,19 @@ func (c *chatRoom) singleSend(conn net.Conn, message constant.SendMessage) error
 		return constant.SingleChatRevicerAcceptError
 	}
 	fmt.Printf("发送给用户%d的信息为%s", message.Receiver, message.MData)
-	_, err := co.Write(message.MData)
+	_, err := co.Write([]byte(message.MData))
 	if err != nil {
 		return err
 	}
 	return nil
 }
 
+// 广播
 func (c *chatRoom) broadcastSend(conn net.Conn, message constant.SendMessage) error {
 	for _, co := range c.Client {
 		go func(co net.Conn) {
 			fmt.Printf("发送给用户%d的信息为%s", c.UserConn[&co], message.MData)
-			co.Write(message.MData)
+			co.Write([]byte(message.MData))
 		}(co)
 	}
 	return nil

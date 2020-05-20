@@ -1,11 +1,11 @@
 package main
 
 import (
-	"encoding/json"
+	"bufio"
 	"fmt"
 	"net"
+	"os"
 	"tcp_test/common"
-	"tcp_test/constant"
 )
 
 func main() {
@@ -15,22 +15,22 @@ func main() {
 		return
 	}
 	clntFd := common.NewSocketUtil(conn)
-	p := map[string]interface{}{
-		"name":    "xiaobai",
-		"age":     21,
-		"company": "intely",
+	// 读取键盘的输入
+	reader := bufio.NewReader(os.Stdin)
+	for {
+		readString, err := reader.ReadString('\n')
+		if err != nil {
+			fmt.Println(err)
+		}
+		// 对数据 进行解码
+		//var message constant.SendMessage
+		//err = json.Unmarshal([]byte(readString), &message)
+		n, err := clntFd.PkgWrite([]byte(readString))
+		if err != nil {
+			fmt.Println(err)
+			return
+		}
+		fmt.Printf("Send %d byte data : %s", n, readString)
 	}
-	m := constant.SendMessage{
-		MType: 1,
-		MUser: 1,
-		MData: p,
-	}
-	marshal, _ := json.Marshal(m)
-	n, err := clntFd.PkgWrite(marshal)
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-	fmt.Printf("Send %d byte data : %s", n, marshal)
 
 }
