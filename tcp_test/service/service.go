@@ -36,7 +36,3 @@ func handler(c net.Conn) {
 		fmt.Println(string(data))
 	}
 }
-
-func handlerMessage(data []byte) {
-
-}
