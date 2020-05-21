@@ -17,16 +17,16 @@ var (
 	HeaderLength uint32 = 6
 )
 
-type socketUtil struct {
+type SocketUtil struct {
 	conn net.Conn
 }
 
-func NewSocketUtil(c net.Conn) *socketUtil {
-	return &socketUtil{conn: c}
+func NewSocketUtil(c net.Conn) *SocketUtil {
+	return &SocketUtil{conn: c}
 }
 
 // 写入流数据
-func (s *socketUtil) PkgWrite(data []byte) (int, error) {
+func (s *SocketUtil) PkgWrite(data []byte) (int, error) {
 	// 写入数据 先写入头部数据
 	buffer := bytes.NewBuffer([]byte{})
 	// 二进制的方式写入
@@ -39,7 +39,7 @@ func (s *socketUtil) PkgWrite(data []byte) (int, error) {
 }
 
 // 读入流数据
-func (s *socketUtil) PkgReader() ([]byte, error) {
+func (s *SocketUtil) PkgReader() ([]byte, error) {
 	//先读入头部 并且判断 是不是一个流
 	header, err := s.readerHeader()
 	if err != nil {
@@ -52,7 +52,7 @@ func (s *socketUtil) PkgReader() ([]byte, error) {
 	return s.readNByte(header.HeaderLength)
 }
 
-func (s *socketUtil) readerHeader() (*pkgHeader, error) {
+func (s *SocketUtil) readerHeader() (*pkgHeader, error) {
 	nByte, err := s.readNByte(HeaderLength)
 	if err != nil {
 		return nil, err
@@ -63,7 +63,7 @@ func (s *socketUtil) readerHeader() (*pkgHeader, error) {
 	binary.Read(buffer, binary.BigEndian, &p.HeaderLength)
 	return &p, nil
 }
-func (s *socketUtil) readNByte(n uint32) ([]byte, error) {
+func (s *SocketUtil) readNByte(n uint32) ([]byte, error) {
 	data := make([]byte, n)
 	//开始进行读取
 	for x := 0; x < int(n); {

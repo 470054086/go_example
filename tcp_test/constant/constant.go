@@ -13,10 +13,10 @@ type MessageType int
 
 // 定义消息的三种状态
 const (
-	Connection MessageType = iota
-	Send
-	Leave
-	Close
+	Connection MessageType =  1
+	Send MessageType = 2
+	Leave MessageType = 3
+	Close MessageType  = 4
 )
 
 // 定义发送消息的类型
