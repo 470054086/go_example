@@ -1,10 +1,11 @@
-package common
+package  protocol
 
 import (
 	"bytes"
 	"encoding/binary"
 	"errors"
 	"net"
+	"time"
 )
 
 type pkgHeader struct {
@@ -18,15 +19,58 @@ var (
 )
 
 type SocketUtil struct {
-	conn net.Conn
+	conn   net.Conn
+	reader []byte
+}
+
+//todo 这个返回读取多少长度的 还需要优化
+func (s *SocketUtil) Read(b []byte) (n int, err error) {
+	b, err = s.pkgReader()
+	s.reader = b // 保存读取的数据
+	return 0, err
+}
+
+func (s *SocketUtil) Write(b []byte) (n int, err error) {
+	return s.pkgWrite(b)
+}
+
+func (s *SocketUtil) Close() error {
+	return nil
+}
+
+func (s *SocketUtil) LocalAddr() net.Addr {
+	return nil
+}
+
+func (s *SocketUtil) RemoteAddr() net.Addr {
+	return nil
+}
+
+func (s *SocketUtil) SetDeadline(t time.Time) error {
+	return nil
+}
+
+func (s *SocketUtil) SetReadDeadline(t time.Time) error {
+	return nil
+}
+
+func (s *SocketUtil) SetWriteDeadline(t time.Time) error {
+	return nil
 }
 
 func NewSocketUtil(c net.Conn) *SocketUtil {
 	return &SocketUtil{conn: c}
 }
 
+/**
+	获取到写入的数据
+ */
+func (s *SocketUtil) GetBytes() []byte {
+	return s.reader
+}
+
 // 写入流数据
-func (s *SocketUtil) PkgWrite(data []byte) (int, error) {
+func (s *SocketUtil) pkgWrite(data []byte) (int, error) {
 	// 写入数据 先写入头部数据
 	buffer := bytes.NewBuffer([]byte{})
 	// 二进制的方式写入
@@ -39,7 +83,7 @@ func (s *SocketUtil) PkgWrite(data []byte) (int, error) {
 }
 
 // 读入流数据
-func (s *SocketUtil) PkgReader() ([]byte, error) {
+func (s *SocketUtil) pkgReader() ([]byte, error) {
 	//先读入头部 并且判断 是不是一个流
 	header, err := s.readerHeader()
 	if err != nil {

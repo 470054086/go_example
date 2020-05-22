@@ -6,8 +6,8 @@ import (
 	"log"
 	"net"
 	"tcp_test/chatroom"
-	"tcp_test/common"
 	"tcp_test/constant"
+	"tcp_test/protocol"
 )
 
 var chat *chatroom.ChatRoom
@@ -31,14 +31,16 @@ func main() {
 }
 
 func handler(c net.Conn) {
-	fd := common.NewSocketUtil(c)
+	fd := protocol.NewSocketUtil(c)
 	for {
-		data, err := fd.PkgReader() //读取数据
+		var data []byte
+		_, err := fd.Read(data) //读取数据
+		data = fd.GetBytes()
 		if err != nil {
 			fmt.Println(err)
 			break
 		}
-		someHandler(c, data)
+		someHandler(fd, data)
 	}
 }
 func someHandler(conn net.Conn, data []byte) error {

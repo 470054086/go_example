@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"net"
 	"sync"
-	"tcp_test/common"
 	"tcp_test/constant"
 )
 
@@ -46,9 +45,9 @@ func (c *ChatRoom) Add(conn net.Conn, message constant.SendMessage) error {
 // 发送
 func (c *ChatRoom) Send(conn net.Conn, message constant.SendMessage) error {
 	if message.SType == constant.SingleSendType {
-		return c.singleSend(conn, message)
+		return c.singleSend(message)
 	} else if message.SType == constant.BroadcastSendType {
-		return c.broadcastSend(conn, message)
+		return c.broadcastSend(message)
 	}
 	return constant.SendTypeError
 }
@@ -73,7 +72,7 @@ func (c *ChatRoom) Leave(conn net.Conn, message constant.SendMessage) (int, erro
 }
 
 // 单播
-func (c *ChatRoom) singleSend(conn net.Conn, message constant.SendMessage) error {
+func (c *ChatRoom) singleSend(message constant.SendMessage) error {
 	if message.Receiver == 0 {
 		return constant.SingleChatRevicerError
 	}
@@ -82,8 +81,7 @@ func (c *ChatRoom) singleSend(conn net.Conn, message constant.SendMessage) error
 		return constant.SingleChatRevicerAcceptError
 	}
 	fmt.Printf("发送给用户%d的信息为%s", message.Receiver, message.MData)
-	clntFd := common.NewSocketUtil(*(co))
-	_, err := clntFd.PkgWrite([]byte(message.MData))
+	_, err := (*co).Write([]byte(message.MData))
 	if err != nil {
 		return err
 	}
@@ -91,12 +89,12 @@ func (c *ChatRoom) singleSend(conn net.Conn, message constant.SendMessage) error
 }
 
 // 广播
-func (c *ChatRoom) broadcastSend(conn net.Conn, message constant.SendMessage) error {
+func (c *ChatRoom) broadcastSend(message constant.SendMessage) error {
 	for _, co := range c.Client {
 		go func(co *net.Conn) {
 			fmt.Printf("发送给用户%d的信息为%s", c.UserConn[co], message.MData)
-			clntFd := common.NewSocketUtil(*(co))
-			clntFd.PkgWrite([]byte(message.MData))
+
+			(*co).Write([]byte(message.MData))
 		}(co)
 	}
 	return nil
