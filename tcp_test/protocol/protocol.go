@@ -1,4 +1,4 @@
-package  protocol
+package protocol
 
 import (
 	"bytes"
@@ -25,9 +25,9 @@ type SocketUtil struct {
 
 //todo 这个返回读取多少长度的 还需要优化
 func (s *SocketUtil) Read(b []byte) (n int, err error) {
-	b, err = s.pkgReader()
+	b, n, err = s.pkgReader()
 	s.reader = b // 保存读取的数据
-	return 0, err
+	return n, err
 }
 
 func (s *SocketUtil) Write(b []byte) (n int, err error) {
@@ -63,8 +63,8 @@ func NewSocketUtil(c net.Conn) *SocketUtil {
 }
 
 /**
-	获取到写入的数据
- */
+获取到写入的数据
+*/
 func (s *SocketUtil) GetBytes() []byte {
 	return s.reader
 }
@@ -83,44 +83,45 @@ func (s *SocketUtil) pkgWrite(data []byte) (int, error) {
 }
 
 // 读入流数据
-func (s *SocketUtil) pkgReader() ([]byte, error) {
+func (s *SocketUtil) pkgReader() ([]byte, int, error) {
 	//先读入头部 并且判断 是不是一个流
-	header, err := s.readerHeader()
+	header, n, err := s.readerHeader()
 	if err != nil {
-		return nil, err
+		return nil, n, err
 	}
 	if header.HeaderData != HeaderData {
-		return nil, errors.New("package reader inivad")
+		return nil, 0, errors.New("package reader inivad")
 	}
 	// 读取存储的数字长度
 	return s.readNByte(header.HeaderLength)
 }
 
-func (s *SocketUtil) readerHeader() (*pkgHeader, error) {
-	nByte, err := s.readNByte(HeaderLength)
+func (s *SocketUtil) readerHeader() (*pkgHeader, int, error) {
+	nByte, n, err := s.readNByte(HeaderLength)
 	if err != nil {
-		return nil, err
+		return nil, n, err
 	}
 	buffer := bytes.NewBuffer(nByte)
 	var p pkgHeader
 	binary.Read(buffer, binary.BigEndian, &p.HeaderData)
 	binary.Read(buffer, binary.BigEndian, &p.HeaderLength)
-	return &p, nil
+	return &p, n, nil
 }
-func (s *SocketUtil) readNByte(n uint32) ([]byte, error) {
+func (s *SocketUtil) readNByte(n uint32) ([]byte, int, error) {
 	data := make([]byte, n)
 	//开始进行读取
-	for x := 0; x < int(n); {
+	var x = 0
+	for x = 0; x < int(n); {
 		//读取数据到read
 		read, err := s.conn.Read(data[x:])
 		if read == 0 {
-			return nil, errors.New("read package error")
+			return nil, 0, errors.New("read package error")
 		}
 		if err != nil {
-			return nil, err
+			return nil, 0, err
 		}
 		// 每次读取的流之后 加入到下次流读取的位置
 		x += read
 	}
-	return data, nil
+	return data, x, nil
 }

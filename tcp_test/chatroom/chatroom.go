@@ -55,6 +55,7 @@ func (c *ChatRoom) Send(conn net.Conn, message constant.SendMessage) error {
 // 离开
 func (c *ChatRoom) Leave(conn net.Conn, message constant.SendMessage) (int, error) {
 	index := 0
+	// 查找到为当前的
 	for k, val := range c.Client {
 		if val == &conn {
 			index = k
@@ -68,6 +69,8 @@ func (c *ChatRoom) Leave(conn net.Conn, message constant.SendMessage) (int, erro
 	c.Client = append(c.Client[:index], c.Client[(index+1):]...)
 	delete(c.UserConn, &conn)
 	delete(c.UserClient, message.MUser)
+	// 发送离开房间的广播信息
+	c.broadcastSend(message)
 	return index, nil
 }
 
