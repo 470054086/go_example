@@ -11,12 +11,12 @@ type SendMessage struct {
 }
 type MessageType int
 
-// 定义消息的三种状态
+// 定义消息的四种消息状态
 const (
-	Connection MessageType =  1
-	Send MessageType = 2
-	Leave MessageType = 3
-	Close MessageType  = 4
+	Connection MessageType = iota + 1 //连接
+	Send //发送
+	Leave //离开
+	Close //关闭
 )
 
 // 定义发送消息的类型

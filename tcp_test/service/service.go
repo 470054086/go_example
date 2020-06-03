@@ -14,7 +14,7 @@ var chat *chatroom.ChatRoom
 
 func main() {
 	// 启动tcp ip
-	listen, err := net.Listen("tcp", ":9988")
+	listen, err := net.Listen("tcp", ":9999")
 	if err != nil {
 		panic(err)
 	}
@@ -25,6 +25,7 @@ func main() {
 			log.Println("accept error:", err)
 			break
 		} else {
+			// 启动一个协程来处理事务
 			go handler(conn)
 		}
 	}
@@ -59,7 +60,13 @@ func someHandler(conn net.Conn, data []byte) error {
 	case constant.Send:
 		// 如果是单播的话
 		chat.Send(conn, message)
-
+	case constant.Leave:
+		// 如果是离开当前直播间的话
+		chat.Leave(conn,message)
+	case constant.Close:
+		// 如果为关闭连接的话
+		chat.Leave(conn,message)
+		conn.Close()
 	}
 	return nil
 }
